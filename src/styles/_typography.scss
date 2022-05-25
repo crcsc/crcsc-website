@@ -1,0 +1,15 @@
+@import 'colors';
+
+body { font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h2 {
+  font-weight: bolder;
+}
+
+h5 {
+  color: $csc-green;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-family: Rubik, sans-serif;
+  font-style: italic;
+}

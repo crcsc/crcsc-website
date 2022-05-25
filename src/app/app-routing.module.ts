@@ -4,10 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent, MeetingsComponent } from './pages';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'home', redirectTo: ''},
+  { path: 'home', component: HomeComponent },
   { path: 'meetings', component: MeetingsComponent },
-  { path: '**', redirectTo: ''}
+  { path: '**', redirectTo: 'home'}
 ];
 
 @NgModule({

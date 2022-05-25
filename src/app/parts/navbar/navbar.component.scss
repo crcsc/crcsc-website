@@ -1,0 +1,36 @@
+@import '~/src/styles/colors';
+
+.navbar-brand {
+  color: $csc-green;
+  small {
+    color: $csc-white-50;
+  }
+  small:hover {
+    color: $csc-white-75;
+  }
+}
+
+i {
+  color: $csc-green;
+  padding-right: 5px;
+}
+
+i:hover {
+  color: $csc-green-darker;
+}
+
+.dropdown-menu {      
+  background-color: $csc-bg-dark;  
+  a {   
+      color: $csc-bg-dark-50;
+  }
+  
+  a:hover {
+      background-color: $csc-bg-dark;  
+      color: $csc-white-75;
+  }
+}
+
+a:focus {
+  outline-style: none;
+}

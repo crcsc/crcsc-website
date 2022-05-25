@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-dark">
   <div class="container">
-    <a class="navbar-brand" routerLink="/">
+    <a class="navbar-brand d-md-none" routerLink="/home">CR CSC</a>
+    <a class="navbar-brand d-none d-md-flex" routerLink="/home">
       CR Computer Science Club
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarToggler">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+          <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/meetings" routerLinkActive="active">Club Meetings</a>

@@ -1,0 +1,13 @@
+@import 'colors';
+
+.btn-csc {
+  @include button-variant(rgb(140, 198, 63), rgb(255, 255, 255), rgb(140, 198, 63));
+  color: white;
+}
+.btn-csc:hover {
+  background-color: $csc-green-dark;
+  color:white;
+}
+.btn-csc:active {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
