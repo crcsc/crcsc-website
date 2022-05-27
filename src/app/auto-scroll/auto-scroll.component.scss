@@ -1,0 +1,25 @@
+@import '~/src/styles/colors';
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  z-index: 1;
+}
+
+.show-scrollTop {
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}
+
+button {
+  background-color: $csc-green;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: $csc-green-dark;
+}

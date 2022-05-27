@@ -1,3 +1,4 @@
+// Color variables
 $csc-green-lighter: #add675;
 $csc-green-light: #95ca4e;
 $csc-green: #8cc63f;
@@ -20,3 +21,10 @@ $csc-border-light: #e7e7e7;
 
 $csc-white-50: rgba(255, 255, 255, 0.5);
 $csc-white-75: rgba(255, 255, 255, 0.75);
+
+// background color classes
+.bg-light-csc {
+  background-color: $csc-grey-lightest;
+  border-top: 1px solid $csc-grey-light;
+	border-bottom: 1px solid $csc-grey-light;
+}

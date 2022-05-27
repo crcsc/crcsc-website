@@ -1,0 +1,11 @@
+@import '~/src/styles/colors';
+
+#csc-welcome-banner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: $csc-grey-lightest;
+  background: url(/assets/circuitry.png) no-repeat bottom center;
+  background-size: cover;
+  text-align: center;
+  border-bottom: 5px solid $csc-green;
+}

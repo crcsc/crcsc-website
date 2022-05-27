@@ -1,0 +1,36 @@
+<div class="travel-content mt-5 mb-5 pt-5">
+  <div class="container">
+    <h5>Computer Science Club</h5>
+    <h2>OFFICERS</h2>
+    <hr class="spacer">
+    <div class="row justify-content-center">
+      <div class="text-center col-xs-12 col-md-6 mb-5">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <hr class="spacer-center">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="text-center align-middle col-xs-12 col-md-6 pl-md-5 pr-md-5">
+        <table class="table">
+          <tbody>
+            <tr *ngFor="let officer of officers">
+              <th scope="row">{{officer.title}}</th>
+              <td>{{officer.name}}</td>             
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
